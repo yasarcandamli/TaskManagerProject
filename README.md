@@ -2,6 +2,8 @@
 
 Bu proje, kullanıcıların görev oluşturmasına, güncellemesine ve silmesine olanak tanıyan basit bir görev yönetim uygulamasıdır. Uygulama, React.js kullanılarak geliştirilmiştir ve verilerin yönetimi için Axios kütüphanesinden yararlanılmıştır.
 
+https://task-manager-project-ap2cvfgw2-yasar-can-damlis-projects.vercel.app/ linkini kullanarak websiteyi ziyaret edebilirsiniz.
+
 ## Özellikler
 
 - Görev oluşturma

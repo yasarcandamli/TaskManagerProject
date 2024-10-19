@@ -1,0 +1,123 @@
+#root {
+  --main-title-color: #2c3e50;
+  --sub-title-color: #34495e;
+  --main-button-background-color: #3498db;
+  --main-button-hover-background-color: #2980b9;
+  --delete-button-background-color: #e74c3c;
+  --delete-button-hover-background-color: #c0392b;
+  --task-card-background-color: #ecf0f1;
+  --task-title-color: #2ecc71;
+  --main-text-color: #2d3436;
+  --task-description-text-color: #7f8c8d;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--main-title-color);
+}
+.app-title {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.task-create {
+  width: 450px;
+}
+.task-create-title {
+  color: var(--sub-title-color);
+}
+.task-update {
+  width: 75%;
+}
+.task-update-title {
+  color: var(--sub-title-color);
+}
+.task-form {
+  display: flex;
+  flex-direction: column;
+}
+.task-label {
+  color: var(--main-text-color);
+  margin: 10px 0;
+}
+.task-input {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-family: inherit;
+}
+.task-button {
+  margin: 10px 0;
+  padding: 10px;
+  color: white;
+  background-color: var(--main-button-background-color);
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+h2 {
+  color: var(--sub-title-color);
+}
+.task-button:hover {
+  background-color: var(--main-button-hover-background-color);
+}
+.update-btn {
+  background-color: var(--main-button-background-color);
+}
+.update-btn:hover {
+  background-color: var(--main-button-hover-background-color);
+}
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.task-show {
+  background-color: var(--task-card-background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--sub-title-color);
+  border-radius: 10px;
+  width: 350px;
+  padding: 20px;
+  margin: 10px;
+}
+.task-show-title {
+  color: var(--sub-title-color);
+  margin-bottom: 5px;
+}
+.task-show-btn {
+  font-size: 15px;
+  padding: 5px;
+  width: 100px;
+  border-radius: 15px;
+  border: none;
+  margin: 5px;
+}
+.task-delete-btn {
+  color: white;
+  background-color: var(--delete-button-background-color);
+  &:hover {
+    background-color: var(--delete-button-hover-background-color);
+  }
+}
+.task-update-btn {
+  color: white;
+  background-color: var(--main-button-background-color);
+  &:hover {
+    background-color: var(--main-button-hover-background-color);
+  }
+}
+p {
+  color: var(--task-description-text-color);
+}
